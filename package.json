@@ -1,0 +1,45 @@
+{
+  "name": "nextjs-tailwindcss-typescript-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@heroicons/react": "v1",
+    "@mui/material": "^5.10.12",
+    "@reduxjs/toolkit": "^1.8.3",
+    "clsx": "^1.2.1",
+    "create-next-app": "^13.0.0",
+    "firebase": "^9.13.0",
+    "framer-motion": "^7.2.1",
+    "heroicons": "^2.0.12",
+    "latest-version": "^7.0.0",
+    "next": "12.2.5",
+    "next-themes": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.39.1",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.4.0",
+    "react-player": "^2.11.0",
+    "react-redux": "^8.0.2",
+    "recoil": "^0.7.6",
+    "tailwind-scrollbar-hide": "^1.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.15",
+    "@types/react": "^18.0.18",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "postcss-import": "^14.0.2",
+    "tailwind-scrollbar": "^2.0.1",
+    "tailwindcss": "^3.1.4",
+    "tailwindcss-textshadow": "^2.1.3",
+    "typescript": "^4.5.4"
+  }
+}
