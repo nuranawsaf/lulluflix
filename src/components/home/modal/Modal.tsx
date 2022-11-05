@@ -83,11 +83,11 @@ const Modal = () => {
         // Check if the movie is already in the user's list
         useEffect(
             () =>
-            setAddedToList(
+              setAddedToList(
                 movies.findIndex((result) => result.data().id === movie?.id) !== -1
-            ),
+              ),
             [movies]
-        )
+          )
 
         const handleList = async () => {
             if (addedToList) {
